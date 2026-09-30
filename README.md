@@ -267,7 +267,7 @@ Cette documentation permet de conserver une trace des choix techniques et des pr
 
 ---
 
-```# 📈 Roadmap
+<!-- # 📈 Roadmap
 
 ### Infrastructure
 
@@ -302,7 +302,7 @@ Cette documentation permet de conserver une trace des choix techniques et des pr
 * [ ] Automatisation du déploiement
 * [ ] Infrastructure as Code
 * [ ] CI/CD pour certaines configurations
-```
+ -->
 ---
 
 # 📚 Compétences mises en pratique
