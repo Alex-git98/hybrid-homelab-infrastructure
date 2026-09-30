@@ -23,7 +23,7 @@ Le serveur tourne dans un conteneur LinuxServer WireGuard.
 Configuration :
 
 ```text
-/home/alex/docker/wireguard/config
+/home/user/docker/wireguard/config
 ```
 
 Le conteneur expose :

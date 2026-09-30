@@ -21,7 +21,7 @@ sudo openvpn --config /etc/openvpn/client/VPN_save.ovpn --daemon
 Le fichier de configuration contient :
 
 ```text
-remote vpn-dad.example 1194
+remote vpn-save.example 1194
 route 192.168.50.250 255.255.255.255
 ```
 
@@ -51,8 +51,8 @@ Adresse :
 Les synchronisations concernent notamment :
 
 ```text
-Films
-Séries
+Dossier A
+Dossier B
 ```
 
 ## Coexistence avec WireGuard

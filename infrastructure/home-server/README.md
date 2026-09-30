@@ -35,7 +35,7 @@ docker network ls
 Les configurations sont stockées sous :
 
 ```text
-/home/alex/docker/
+/home/user/docker/
 ```
 
 ## Services
@@ -59,7 +59,7 @@ Le serveur possède un conteneur WireGuard LinuxServer.
 Configuration principale :
 
 ```text
-/home/alex/docker/wireguard/config
+/home/user/docker/wireguard/config
 ```
 
 Le réseau VPN domestique est :
