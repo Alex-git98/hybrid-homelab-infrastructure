@@ -45,13 +45,13 @@ Un NAS distant est utilisé pour une synchronisation ponctuelle.
 Le serveur démarre OpenVPN avec :
 
 ```bash
-sudo openvpn --config /etc/openvpn/client/VPN_dad.ovpn --daemon
+sudo openvpn --config /etc/openvpn/client/VPN_save.ovpn --daemon
 ```
 
 Puis le script vérifie l'accès au NAS :
 
 ```text
-192.168.1.250
+192.168.50.250
 ```
 
 Les données sont synchronisées avec `rsync` via SSH.
@@ -69,7 +69,7 @@ rsync -av --update ...
 Script utilisé :
 
 ```text
-sync_jellyfin_nas_dad.sh
+sync_dossiers.sh
 ```
 
 Il réalise notamment :

@@ -26,7 +26,7 @@ WireGuard : 51820/udp
 HTTP : 80/tcp
 HTTPS : 443/tcp
 WireGuard interface : trafic autorisé selon les règles UFW
-SSH depuis le réseau WireGuard : 10.50.0.0/24
+SSH depuis le réseau WireGuard : 10.100.0.0/24
 ```
 
 Vérification :

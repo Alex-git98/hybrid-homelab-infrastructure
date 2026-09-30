@@ -28,7 +28,7 @@ Adresse privée de l'instance :
 Le VPS utilise également une interface WireGuard :
 
 ```text
-10.50.0.1/24
+10.100.0.1/24
 ```
 
 ## Ports publics

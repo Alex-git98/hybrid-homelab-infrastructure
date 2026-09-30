@@ -11,13 +11,13 @@ Ubuntu Server
 Adresse LAN :
 
 ```text
-192.168.1.210
+192.168.50.210
 ```
 
 Passerelle :
 
 ```text
-192.168.1.254
+192.168.50.254
 ```
 
 ## Docker
@@ -65,13 +65,13 @@ Configuration principale :
 Le réseau VPN domestique est :
 
 ```text
-10.13.13.0/24
+10.30.30.0/24
 ```
 
 Le serveur WireGuard utilise :
 
 ```text
-10.13.13.1
+10.30.30.1
 ```
 
 Ce VPN permet l'accès distant au LAN.
@@ -85,7 +85,7 @@ Ce tunnel est indépendant du VPN domestique.
 Réseau :
 
 ```text
-10.50.0.0/24
+10.100.0.0/24
 ```
 
 ## OpenVPN
@@ -95,13 +95,13 @@ Le serveur utilise également OpenVPN ponctuellement pour accéder à un NAS dis
 Configuration :
 
 ```text
-/etc/openvpn/client/VPN_dad.ovpn
+/etc/openvpn/client/VPN_save.ovpn
 ```
 
 L'objectif est uniquement d'atteindre :
 
 ```text
-192.168.1.250
+192.168.50.250
 ```
 
 ## Important

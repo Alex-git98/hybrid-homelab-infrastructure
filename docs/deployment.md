@@ -83,7 +83,7 @@ Reverse Proxy
         |
         | WireGuard
         v
-192.168.1.210:<port>
+192.168.50.210:<port>
 ```
 
 Le port réel du service sera documenté après déploiement.

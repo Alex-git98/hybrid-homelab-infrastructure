@@ -58,7 +58,7 @@ L'objectif principal est de pouvoir rendre certains services accessibles depuis 
                   │  └───────────────┘  │
                   └──────────┬──────────┘
                              │
-                       LAN 192.168.1.0/24
+                       LAN 192.168.50.0/24
                              │
                     ┌────────┴────────┐
                     │                 │

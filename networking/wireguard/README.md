@@ -9,13 +9,13 @@ Ce WireGuard est utilisé pour l'accès distant au réseau domestique.
 Réseau :
 
 ```text
-10.13.13.0/24
+10.30.30.0/24
 ```
 
 Serveur :
 
 ```text
-10.13.13.1
+10.30.30.1
 ```
 
 Le serveur tourne dans un conteneur LinuxServer WireGuard.
@@ -41,19 +41,19 @@ Un second WireGuard est installé directement sur le VPS Oracle.
 Réseau :
 
 ```text
-10.50.0.0/24
+10.100.0.0/24
 ```
 
 VPS :
 
 ```text
-10.50.0.1
+10.100.0.1
 ```
 
 Serveur domestique :
 
 ```text
-10.50.0.2
+10.100.0.2
 ```
 
 Le VPS écoute actuellement sur :
@@ -76,7 +76,7 @@ public key: ...
 listening port: 51820
 
 peer:
-allowed ips: 10.50.0.2/32
+allowed ips: 10.100.0.2/32
 latest handshake: ...
 transfer: ...
 ```

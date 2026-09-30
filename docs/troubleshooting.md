@@ -97,7 +97,7 @@ sudo iptables -t nat -S POSTROUTING
 Le tunnel Oracle utilise actuellement une règle de masquerading pour le réseau :
 
 ```text
-10.50.0.0/24
+10.100.0.0/24
 ```
 
 ## Vérifier les routes

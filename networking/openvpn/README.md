@@ -7,13 +7,13 @@ OpenVPN est utilisé sur le serveur domestique pour accéder ponctuellement à u
 Fichier :
 
 ```text
-/etc/openvpn/client/VPN_dad.ovpn
+/etc/openvpn/client/VPN_save.ovpn
 ```
 
 Lancement manuel :
 
 ```bash
-sudo openvpn --config /etc/openvpn/client/VPN_dad.ovpn --daemon
+sudo openvpn --config /etc/openvpn/client/VPN_save.ovpn --daemon
 ```
 
 ## Route
@@ -22,7 +22,7 @@ Le fichier de configuration contient :
 
 ```text
 remote vpn-dad.example 1194
-route 192.168.1.250 255.255.255.255
+route 192.168.50.250 255.255.255.255
 ```
 
 Le nom réel du domaine n'est pas publié dans ce dépôt.
@@ -45,7 +45,7 @@ Le script :
 Adresse :
 
 ```text
-192.168.1.250
+192.168.50.250
 ```
 
 Les synchronisations concernent notamment :
@@ -62,17 +62,17 @@ OpenVPN et WireGuard peuvent fonctionner simultanément car ils servent des obje
 Le point important est le routage :
 
 ```text
-192.168.1.250
+192.168.50.250
     |
     +--> OpenVPN
 
 
-10.50.0.0/24
+10.100.0.0/24
     |
     +--> WireGuard Oracle
 
 
-10.13.13.0/24
+10.30.30.0/24
     |
     +--> WireGuard accès distant maison
 ```
