@@ -365,3 +365,18 @@ Ce projet permet de mettre en pratique :
 Ce projet est développé et documenté progressivement dans le cadre de mon apprentissage de l'administration systèmes, réseaux et cybersécurité.
 
 L'objectif n'est pas uniquement d'héberger des services, mais de comprendre et documenter leur fonctionnement, leur sécurisation, leur supervision et leur maintenance.
+
+---
+
+## Documentation
+
+- [Architecture](docs/architecture.md)
+- [Réseau](docs/network.md)
+- [Sécurité](docs/security.md)
+- [VPS Oracle](infrastructure/oracle-vps/README.md)
+- [Serveur domestique](infrastructure/home-server/README.md)
+- [WireGuard](networking/wireguard/README.md)
+- [OpenVPN](networking/openvpn/README.md)
+- [Sauvegardes](docs/backups.md)
+- [Dépannage](docs/troubleshooting.md)
+- [Déploiement](docs/deployment.md)
