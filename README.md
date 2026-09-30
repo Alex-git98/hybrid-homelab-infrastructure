@@ -90,8 +90,8 @@ L'objectif principal est de pouvoir rendre certains services accessibles depuis 
 * Ubuntu Server
 * Docker
 * Docker Compose / Stacks
-* LAN : `192.168.1.0/24`
-* Serveur : `192.168.1.210`
+* LAN : `192.168.50.0/24`
+* Serveur : `192.168.50.210`
 
 ---
 
@@ -132,6 +132,8 @@ Les principales mesures de sécurité mises en place sont :
 * Désactivation de l'authentification SSH par mot de passe
 * Sauvegardes automatisées
 * Séparation des flux VPN
+* Fail2ban sur Oracle pour limite le brute force
+* IP bloqué hors france
 
 Les clés privées, mots de passe, tokens et certificats sensibles ne sont jamais stockés dans ce dépôt.
 
@@ -158,7 +160,7 @@ Le VPN NAS n'est pas utilisé comme tunnel Internet général.
 Une route spécifique est utilisée vers le NAS distant :
 
 ```text
-192.168.1.250/32
+192.168.50.250/32
 ```
 
 ---
@@ -177,7 +179,7 @@ Les principaux services hébergés sur le serveur domestique sont :
 | AdGuard      | DNS / filtrage      |
 | WireGuard    | VPN                 |
 | Dashdot      | Monitoring système  |
-| File Browser | Gestion de fichiers |
+
 
 ---
 
@@ -198,8 +200,8 @@ Exemple :
 ```text
 Home Server
      │
-     ├── Films
-     └── Séries
+     ├── Dossier-A
+     └── Dossier-B
            │
            ▼
        OpenVPN
@@ -265,7 +267,7 @@ Cette documentation permet de conserver une trace des choix techniques et des pr
 
 ---
 
-# 📈 Roadmap
+```# 📈 Roadmap
 
 ### Infrastructure
 
@@ -300,7 +302,7 @@ Cette documentation permet de conserver une trace des choix techniques et des pr
 * [ ] Automatisation du déploiement
 * [ ] Infrastructure as Code
 * [ ] CI/CD pour certaines configurations
-
+```
 ---
 
 # 📚 Compétences mises en pratique
